@@ -1,0 +1,25 @@
+[33mcommit ee394e8b49563d782f7f953fd00726c46b2934d0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpatch/README.md[m[33m)[m
+Author: Jonatan <jonatanpaulaweb@gmail.com>
+Date:   Sat Dec 9 11:36:57 2023 -0400
+
+    Revert "hw: clean readme"
+    
+    This reverts commit 9547e7ca82bacacabb879fe07e3762b7a68cd5fd.
+
+[33mcommit 9547e7ca82bacacabb879fe07e3762b7a68cd5fd[m
+Author: Jonatan <jonatanpaulaweb@gmail.com>
+Date:   Sat Dec 9 11:36:40 2023 -0400
+
+    hw: clean readme
+
+[33mcommit 570720898e8033133ade958cb121ddb6dc47042e[m[33m ([m[1;31morigin/patch/README.md[m[33m)[m
+Author: Jonatan <jonatanpaulaweb@gmail.com>
+Date:   Sat Dec 9 11:30:34 2023 -0400
+
+    hw: update readme
+
+[33mcommit 97ca31f921e8504d0387dac2d7f3e9cbd0e800c9[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Jonatan <103341712+jonatantech@users.noreply.github.com>
+Date:   Sat Dec 9 10:26:35 2023 -0400
+
+    Initial commit
