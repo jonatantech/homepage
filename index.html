@@ -1,77 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jonatan's Resume</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/25da3f1030.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="UTF-8" />
-    <title>Resumé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
 </head>
+<main>
 
-<body>
-    <main>
-        <div class="resume">
+    <body>
+        <div id="header">
             <div class="container">
-                <div class="resume__block">
-                    <h1 class="contact-info__header">Jonatan</h1>
-                    <h3 class="contact-info__sub-header">Full Stack Magician</h3>
+                <div class="header-text">
+                    <h1>Hi! I'm <span>Jonatan</span></h1>
+                    <p><span>Frontend Developer</span> and high fantasy nerd.</p>
+                </div>
+            </div>
+        </div>
 
-                    <div class="contact_info_container fh">
-                        <div class="contact-info__block"><a href="" rel="author" class="contact-info__item">
-                            <div class="contact-info__item-icon-wrapper">
-                              <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                                <path
-                                  d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0
-                                  192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
-                                  13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
-                                  80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                                ></path>
-                              </svg>
-                            </div>
-                            <span>Santo Domingo, Dominican Republic</span>
-                          </a>
-                          <a href="https://ua.linkedin.com/company/binary-studio_241166" rel="author" class="contact-info__item">
-                            <div class="contact-info__item-icon-wrapper">
-                              <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9
-                                  480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4
-                                  416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9
-                                  96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5
-                                  38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9
-                                  27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5
-                                  62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-                                ></path>
-                              </svg>
-                            </div>
-                            <span>binary-studio</span>
-                          </a>
-                          <!---New Icon-->
-                          <a href="https://ua.linkedin.com/company/binary-studio_241166" rel="author" class="contact-info__item">
-                            <div class="contact-info__item-icon-wrapper">
-                                <i class="fa-solid fa-wand-magic-sparkles"></i>
-                            </div>
-                            <span>Lord of the Rings nerd</span>
-                          </a>
-                          <a href="https://ua.linkedin.com/company/binary-studio_241166" rel="author" class="contact-info__item">
-                            <div class="contact-info__item-icon-wrapper">
-                                <i class="fa-solid fa-wand-magic-sparkles"></i>
-                            </div>
-                            <span>Lord of the Rings nerd</span>
-                          </a>
+        <!--Contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <p>
+                            <i class="fa-solid fa-location-pin"></i> Santo Domingo, Dominican Republic
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-envelope"></i> jonatanpaulaweb[at]gmail.com
+                        </p>
+
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/jonatan.tech/" rel="noopener noreferrer"
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/jonatanpaula/" rel="noopener noreferrer"
+                                target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/jonatanptech" rel="noopener noreferrer" target="_blank"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.twitch.tv/jonatantech" rel="noopener noreferrer" target="_blank"><i
+                                    class="fa-brands fa-twitch"></i></a>
+                            <a href="https://github.com/jonatantech" rel="noopener noreferrer" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
                         </div>
 
-                        <div class="contact-info__block contact-info__block--center">
-                            <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar" />
-                        </div>
+                    </div>
+                    <div class="contact-right">
 
-                        <div class="contact-info__block"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--About-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="assets/user.png" alt="" />
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            An Industrial Engineering graduate turned self-taught programmer. I started with machines,
+                            now I
+                            play with code to make things cooler. I am passionate about how tech can jazz up our daily
+                            grind.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">
+                                Skills
+                            </p>
+                            <p class="tab-links" onclick="opentab('experience')">
+                                Experience
+                            </p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br />Wireframing web interfaces</li>
+                                <li><span>Web Development</span><br />HTML/CSS, JavaScript & WordPress</li>
+                                <li>
+                                    <span>Languages</span><br />Spanish (native), english (advanced) and elvish or elve
+                                    language (basic).
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>2021 - current</span><br />Web developer at <a class="telusite-links"
+                                        href="https://www.telusite.com/" target="_blank">Telusite<i
+                                            class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>
+                                </li>
+
+                                <li>
+                                    <span>2022 - current</span><br />Social media manager at <a class="telusite-links"
+                                        href="https://codum.cc/about-us" target="_blank">codum.cc<i
+                                            class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2023</span><br />Responsive Web Design at <a class="telusite-links"
+                                        href="https://freecodecamp.org/certification/fccae021072-6a56-418a-988e-b7e39089b371/responsive-web-design"
+                                        target="_blank">freeCodeCamp<i
+                                            class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>
+                                </li>
+                                <li>
+                                    <span>2022</span><br />JavaScript Algorithms and Data Structures at freeCodeCamp
+                                </li>
+                                <li>
+                                    <span>2022-present</span><br />Software Engineering Bootcamp at <a
+                                        class="telusite-links" href="https://leonnoel.com/100devs/"
+                                        target="_blank">#100Devs<i
+                                            class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
-</body>
-
-</html>
